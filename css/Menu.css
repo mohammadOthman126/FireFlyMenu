@@ -1,0 +1,52 @@
+#logo{
+    width: 100px;
+    height: 100px;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+
+}
+.nav-link:hover{
+color: #39DB4A;
+}
+#navbarScroll{
+    margin-left: 35%;
+}
+.btn{
+    background-color: #39DB4A;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.cartBut{
+   border: none;
+   padding: 0px;
+   margin: 0px;
+   background-color: white;
+}
+.icon1{
+    width: 30px;
+    height: 30px;
+
+}
+.bg-green{
+    background-color: #39DB4A;
+}
+
+
+
+
