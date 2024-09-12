@@ -105,5 +105,15 @@ footer{
     background-color: darkred;
     color: black;
 }
+.dropdown-menu{
+    background-color: darkred;
+    
+}
+.dropdown-item{
+    color: black;
+}
+.dropdown-item:hover{
+    background-color: darkgoldenrod;
+}
 
 
