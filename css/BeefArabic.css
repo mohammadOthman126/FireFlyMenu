@@ -115,3 +115,14 @@ footer{
 .dropdown-item:hover{
     background-color: darkgoldenrod;
 }
+.mouseHover{
+    width: 200px;
+}
+.eeee{
+    width: 350px;
+    
+}
+.eeee:hover{
+    width: 400px;
+    border: 2px solid black;
+}
