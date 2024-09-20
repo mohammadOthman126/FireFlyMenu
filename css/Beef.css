@@ -45,9 +45,7 @@ color: darkgoldenrod;
     height: 30px;
 
 }
-.bg-green{
-    background-color: #39DB4A;
-}
+
 .gridContainer{
     display: grid;
     grid-template-columns: auto auto auto;

@@ -91,14 +91,14 @@ color: darkgoldenrod;
 }
 
 .content{
-    font-style: italic;
+    font-style: normal;
     font-size: 20px;
     color: darkgoldenrod;
 }
 
 .price{
     color: darkred;
-    font-style: italic;
+    font-style: normal;
     font-size: 20px;
 }
 footer{
