@@ -63,13 +63,14 @@ footer{
     color: black;
 }
 .gridContainer{
+    margin-top: 5%;
     display: grid;
     grid-template-columns: auto auto auto auto ;
     grid-gap: 10px;  
     margin-left: 50px;
     margin-right: 50px;
 }
-.gridItem{
+.gridItem{   
     margin-left: 20px;
     text-align: center;
     padding: 50px;
@@ -96,8 +97,22 @@ footer{
        padding: 0px;
        margin-left: 0px;
     }
+    .backk{
+         display: none;
+        
+    
+  }
     
     
+}
+.backk{
+    
+      margin-top: 10%;
+          background-image: url('/media/firefly\ and\ 2\ more\ pages\ -\ Personal\ -\ Microsoft​\ Edge\ 9_22_2024\ 6_13_04\ AM.png'); /* استبدل المسار بالصورة الخاصة بك */
+          background-size: cover; 
+          background-position: center bottom; 
+      
+  
 }
 
 
