@@ -20,6 +20,9 @@ color: darkgoldenrod;
 #navbarScroll{
     margin-left: 35%;
 }
+#reloadButton{
+    display: none;
+}
 .btn{
     background-color: black;
     border-radius: 20px;

@@ -4,6 +4,7 @@
     border-radius: 50px;
     margin-left: 76%;
 }
+
 body{
     /*margin-left: 5%;
     margin-right: 5%;*/
@@ -19,6 +20,9 @@ color: darkgoldenrod;
 }
 #navbarScroll{
     margin-left: 35%;
+}
+#reloadButton{
+    display: none;
 }
 .btn{
     background-color: black;

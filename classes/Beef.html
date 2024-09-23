@@ -40,9 +40,7 @@
                   
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-disabled="true"  >Offers</a>
-              </li>
+             
             </ul>
             <form class="d-flex" role="search">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -52,8 +50,9 @@
                  
 
                   <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn " type="submit">Search</button>
+                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn " id="searchButton" type="button">Search</button>
+                    <button class="btn btn-secondary" id="reloadButton" type="button">back</button>
                   </form>
             </form>
           </div>
@@ -64,7 +63,7 @@
         <div class="gridContainer">
         <div class="gridItem">
           <img class="mouseHover" src="/media/angus.jpg">
-          <h1 class="price">Angus Burger</h1>
+          <h1 class="price">angus burger</h1>
           <h1 class="content">200 grams of Angus beef, bacon, firefly sauce, pickles, tomatoes, lettuce, grilled onions, smoked cheese</h1>
           <h3 class="price">Meal : 5.65$ </h3> 
           <h3 class="price">Sandwich : 4.65$ </h3> 
@@ -183,7 +182,7 @@
         <a
         data-mdb-ripple-init
           class="btn text-white btn-floating m-1"
-          style="background-color: #3b5998;"
+          style="background-color: darkred;"
           href="https://www.facebook.com/FireFlyBurger?mibextid=LQQJ4d
           "
           role="button"
@@ -196,7 +195,7 @@
         <a
         data-mdb-ripple-init
         class="btn text-white btn-floating m-1"
-        style="background-color: #25D366;"
+        style="background-color: darkred;"
         href="https://wa.me/962795041122"
         role="button"
         ><i class="fab fa-twitter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -209,7 +208,7 @@
          <a
          data-mdb-ripple-init
          class="btn text-white btn-floating m-1"
-         style="background-color: #ac2bac;"
+         style="background-color: darkred;"
          href="https://www.instagram.com/fireflyburgerjo?igsh=MTkwYnZ0ZXU2NGVqbQ=="
          role="button"
          ><i class="fab fa-instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -221,7 +220,7 @@
         <a
         data-mdb-ripple-init
         class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
+        style="background-color: darkred;"
         href="https://www.linkedin.com/company/fireflyburger/?"
         role="button"
         ><i class="fab fa-linkedin-in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -245,5 +244,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/Beef.js"></script>
   </body>
 </html>
