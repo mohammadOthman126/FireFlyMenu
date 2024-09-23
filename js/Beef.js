@@ -10,10 +10,10 @@ document.getElementById('searchButton').addEventListener('click', function() {
         const priceText2 = item.querySelector('h3.price').textContent.toLowerCase();
 
         if (contentText.includes(query) || priceText1.includes(query) || priceText2.includes(query) ) {
-            item.style.display = ''; // عرض العنصر
+            item.style.display = ''; 
             hasVisibleItems = true;
         } else {
-            item.style.display = 'none'; // إخفاء العنصر
+            item.style.display = 'none'; 
         }
     });
 
@@ -25,7 +25,7 @@ document.getElementById('searchButton').addEventListener('click', function() {
         alert('لا توجد عناصر تطابق البحث!');
         document.getElementById('reloadButton').style.display = 'block'; 
         document.getElementById('searchButton').style.display = 'none';
-        // إخفاء الزر إذا لم توجد عناصر
+       
     }
 });
 
