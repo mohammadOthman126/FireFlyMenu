@@ -121,3 +121,47 @@ footer{
 .mouseHover{
     width: 200px;
 }
+@media screen and (max-width: 1372px) {
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr); /* 3 أعمدة للأجهزة اللوحية */
+    }
+    .backk {
+        display: none; /* إخفاء الخلفية على الهواتف */
+    }
+}
+@media screen and (max-width: 768px) {
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr); /* 2 عمودين للأجهزة الصغيرة */
+    }
+
+    .nav-link {
+        font-size: 1rem; /* حجم خط أصغر للأجهزة الصغيرة */
+    }
+    .backk {
+        display: none; /* إخفاء الخلفية على الهواتف */
+    }
+}
+@media screen and (max-width: 708px) {
+    .gridContainer {
+        grid-template-columns: 1fr; /* عمود واحد للهواتف */
+    }
+
+    #logo {
+        width: 80px; /* حجم شعار أصغر */
+    }
+
+    .btn {
+        width: 100%; /* زر عريض */
+        height: 40px; /* ارتفاع أقل */
+        font-size: 1rem; /* حجم خط أصغر */
+    }
+
+    .gridItem {
+        padding: 20px; /* تقليل الحشو */
+    }
+
+    .backk {
+        display: none; /* إخفاء الخلفية على الهواتف */
+    }
+}
+
