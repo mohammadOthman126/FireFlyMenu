@@ -16,6 +16,7 @@ body{
 }
 .nav-link:hover{
 color: darkgoldenrod;
+text-shadow: 0 0 5px darkgoldenrod; /* إضافة ظل للنص */
 }
 #navbarScroll{
     margin-left: 35%;
@@ -30,6 +31,10 @@ color: darkgoldenrod;
     height: 50px;
     font-size: 1rem;
     color: white;
+}
+.btn:hover {
+    background-color: darkgoldenrod; /* تغيير لون الخلفية عند التمرير */
+    transform: scale(1.05); /* تكبير الزر قليلاً عند التمرير */
 }
 .icon{
     width: 30px;
@@ -48,9 +53,7 @@ color: darkgoldenrod;
     height: 30px;
 
 }
-.bg-green{
-    background-color: #39DB4A;
-}
+
 .gridContainer{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -66,9 +69,15 @@ color: darkgoldenrod;
     margin-top: 5%;
     border-radius: 40px;
 }
-.mouseHover:hover{
-    width: 250px;
-    border: 2px solid black;
+.gridItem:hover {
+    transform: translateY(-5px); /* تحريك العنصر لأعلى قليلاً */
+    
+
+    transform: scale(1.05); /* تكبير العنصر بنسبة 5% */
+    background-color: #0a0a0a; /* تغيير لون الخلفية */
+    border-color: darkgoldenrod; /* تغيير لون الحدود */
+   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* إضافة ظل */ 
+    filter: brightness(1.1); /* زيادة السطوع */
 }
 #butt{
     display: none;
@@ -100,7 +109,7 @@ color: darkgoldenrod;
 }
 
 .price{
-    color: darkred;
+    color:bisque ;
     font-style: normal;
     font-size: 20px;
 }
